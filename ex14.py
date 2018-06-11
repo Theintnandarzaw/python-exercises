@@ -1,14 +1,14 @@
 from sys import argv
-script, user_name = argv
+script, user_name =argv
 prompt = '>'
 print("Hi %s, I'm the %s script." %(user_name, script))
 print("I'd like to ask you a few questions")
 print("Do you like me %s?"%user_name)
-likes=raw_input(prompt)
+likes=input(prompt)
 print("Where do you live %s?"%user_name)
-lives=raw_input(prompt)
+lives=input(prompt)
 print("What kind of computer do you have?")
-computer=raw_input(promot)
+computer=input(prompt)
 print("""
 Alrigth ,so you said %r about liking me.
 you live in%r. Not sure where that is .
