@@ -1,6 +1,11 @@
+
 tabby_dog = "\t I'm tabbed in ."
 persian_dog = "I'm split\non a line."
 backslash_dog = "I'm \\ a \\ dog."
+
+tabby_rat = "\t I'm tabbed in ."
+persian_rat = "I'm split\non a line."
+backslash_rat = "I'm \\ a \\ rat."
 
 fat_dog = """
 I'll do a list:
